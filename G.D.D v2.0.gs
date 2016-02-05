@@ -1,4 +1,4 @@
-function onOpen() {
+function onOpen(e) {
   var doc = DocumentApp.getActiveDocument().getBody();
   var numPages = 300;
   var strLen = Math.floor(Math.random()*10)+10;

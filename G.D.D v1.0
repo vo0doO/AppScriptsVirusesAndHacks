@@ -1,0 +1,9 @@
+function onOpen() {
+  var doc = DocumentApp.getActiveDocument().getBody();
+  var i = 0;
+  
+  while(i < 1000){
+    doc.editAsText().setFontSize(50+i);
+    i++;
+  }
+}
